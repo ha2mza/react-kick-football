@@ -1,0 +1,14 @@
+.emoji-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  pointer-events: none;
+}
+
+.emoji-text {
+  font-size: 35px;
+  background-color: transparent;
+  transition: opacity 0.3s ease;
+}

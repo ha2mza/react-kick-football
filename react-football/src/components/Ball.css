@@ -1,0 +1,29 @@
+@keyframes rotation {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.ball-container {
+  position: absolute;
+  background-color: transparent;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: none;
+  transition: filter 0.1s ease;
+}
+
+.ball-container:hover {
+  filter: brightness(1.1);
+}
+
+.ball-container:active {
+  filter: brightness(0.9);
+}
+
+.ball-container img {
+  pointer-events: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+}

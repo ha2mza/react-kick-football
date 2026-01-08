@@ -1,0 +1,48 @@
+<h1 align="center">React Native Football</h1>
+
+<div align="center">
+  <strong>⚽ React-Native clone of the Facebook Football game.</strong>
+</div>
+
+<div align="center">
+    Built with ❤︎ by <a href="https://www.linkedin.com/in/gergely-nagy-9a8198117/">Gergely Nagy </a> and <a href="https://github.com/gergely-nagy/react-native-football/graphs/contributors"> contributors. </a>
+</div>
+
+<div align="center">
+    Inspired by <a href="https://github.com/FaridSafi">FaridSafi</a>'s <a href="https://github.com/FaridSafi/react-native-basketball"> react-native-basketball</a>
+</div>
+
+<br />
+
+## Table of Content
+- [Status](#status)
+- [Features](#features)
+- [Installation](#installation)
+- [License](#license)
+
+
+## Status
+Pre-alpha and under heavy development, do not use!
+
+
+## Features
+- [x] 🏆 <strong>Scoreboard: </strong> Current best score.
+- [x] 😍 <strong>Emoji: </strong> Use emoji for press response.
+- [x] ⚽ <strong>Ball: </strong> Add soccer ball.
+- [ ] :rocket: <strong>Physics: </strong> Add gravity and handle collision.
+- [ ] ✔️ <strong>Test: </strong> Add tests.
+
+## Installation
+
+```
+$ git clone https://github.com/gergely-nagy/react-native-football.git
+$ cd react-native-football/
+$ npm install
+$ npm start
+```
+
+You'll need to have Node v6 or later on your machine. We strongly recommend using npm v3, v4, or a recent version of Yarn.
+
+## License
+
+Copyright (c) 2017 Gergely Nagy and individual contributors. Licensed under MIT license, see [LICENSE](LICENSE) for the full license.
