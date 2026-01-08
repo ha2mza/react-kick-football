@@ -101,13 +101,13 @@ The backend is intentionally lightweight to support:
 
 ### Frontend
 ```bash
-cd frontend
+cd react-football-fe
 npm install
 npm run build
 docker compose up -d
 ```
 ### Backend
 ``` bash
-cd backend
+cd react-football-be
 docker compose up -d
 ```
